@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_blue">#1677FF</color>
+    <color name="dark_blue">#0B1F45</color>
+    <color name="bg_light">#F7F9FC</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="text_primary">#101828</color>
+    <color name="text_secondary">#667085</color>
+    <color name="success">#12B76A</color>
+    <color name="error">#F04438</color>
+
+    <color name="folder_yellow">#F59E0B</color>
+    <color name="zip_blue">#1677FF</color>
+    <color name="rar_purple">#8B5CF6</color>
+    <color name="sevenz_green">#10B981</color>
+</resources>

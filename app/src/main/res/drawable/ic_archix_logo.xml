@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Background squircle -->
+    <path
+        android:pathData="M 20,0 L 80,0 A 20,20 0 0 1 100,20 L 100,80 A 20,20 0 0 1 80,100 L 20,100 A 20,20 0 0 1 0,80 L 0,20 A 20,20 0 0 1 20,0 Z"
+        android:fillColor="#0B1F45" />
+
+    <!-- Blue gradient accent overlay -->
+    <path
+        android:pathData="M 0,50 L 100,0 L 100,100 Z"
+        android:fillColor="#1677FF"
+        android:fillAlpha="0.25" />
+
+    <!-- Geometric "A" structure -->
+    <!-- Left leg -->
+    <path
+        android:pathData="M 22,82 L 48,18 L 58,18 L 40,82 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Right leg -->
+    <path
+        android:pathData="M 78,82 L 52,18 L 42,18 L 60,82 Z"
+        android:fillColor="#E2E8F0" />
+
+    <!-- Top Cap connection -->
+    <path
+        android:pathData="M 42,18 L 50,14 L 58,18 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Blue Folder accent nestled in the center -->
+    <!-- Folder tab -->
+    <path
+        android:pathData="M 32,54 L 46,54 L 50,58 L 68,58 A 4,4 0 0 1 72,62 L 72,78 A 4,4 0 0 1 68,82 L 32,82 A 4,4 0 0 1 28,78 L 28,58 A 4,4 0 0 1 32,54 Z"
+        android:fillColor="#1677FF" />
+
+    <!-- Folder front flap -->
+    <path
+        android:pathData="M 28,62 L 72,62 L 68,82 L 32,82 Z"
+        android:fillColor="#388E3C"
+        android:fillAlpha="0" />
+    <path
+        android:pathData="M 30,64 L 70,64 L 66,82 L 34,82 Z"
+        android:fillColor="#3B82F6" />
+
+</vector>
